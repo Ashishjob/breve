@@ -1,8 +1,15 @@
 import React, { useEffect } from 'react';
 import { Image, View, Text, StyleSheet, Dimensions, Animated } from 'react-native';
 import { useRouter } from 'expo-router';
+import { useFonts } from 'expo-font';
 
 const { width } = Dimensions.get('window');
+
+useFonts({
+  'AveriaSerifLibre-Bold': require('@/assets/fonts/AveriaSerifLibre-Bold.ttf'),
+  'AveriaSerifLibre-Regular': require('@/assets/fonts/AveriaSerifLibre-Regular.ttf'),
+  'AveriaSerifLibre-Light': require('@/assets/fonts/AveriaSerifLibre-Light.ttf'),
+});
 
 const BreveSplashScreen = () => {
   const router = useRouter();

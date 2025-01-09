@@ -32,13 +32,7 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ],
-      "expo-font",
-      {
-        "averia-bold": ["./assets/fonts/AveriaSerifLibre-Bold.ttf"],
-        "averia-regular": ["./assets/fonts/AveriaSerifLibre-Regular.ttf"],
-        "averia-light": ["./assets/fonts/AveriaSerifLibre-Light.ttf"]
-      }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
