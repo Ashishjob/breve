@@ -5,17 +5,13 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "breve",
+    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "bundleIdentifier": "com.breve.app",
-      "supportsTablet": true,
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.breve.app",
-      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -36,19 +32,16 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font",
+      {
+        "averia-bold": ["./assets/fonts/AveriaSerifLibre-Bold.ttf"],
+        "averia-regular": ["./assets/fonts/AveriaSerifLibre-Regular.ttf"],
+        "averia-light": ["./assets/fonts/AveriaSerifLibre-Light.ttf"]
+      }
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "bd56e70d-9cfc-4322-a652-52639ef2e809"
-      }
-    },
-    "owner": "ashish104"
+    }
   }
 }
