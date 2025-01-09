@@ -165,7 +165,7 @@ const BreveSplashScreen = () => {
             }}
           >
             <Image
-              source={require('@/assets/images/logo.png')}
+              source={require('@/assets/images/logo.svg')}
               style={styles.reactLogo}
             />
           </Animated.View>
